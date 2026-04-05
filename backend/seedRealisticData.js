@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const User = require('./models/User');
 const Transaction = require('./models/Transaction');
 
-const MONGO_URI = "mongodb://localhost:27017/finance-dashboard";
+const MONGO_URI = "mongodb+srv://duttarana189:wWBbmR3TAG36HZrj@cluster0.u2z6t.mongodb.net/finance-dashboard";
 
 const seedData = async () => {
   try {
